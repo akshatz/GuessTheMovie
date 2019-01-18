@@ -14,7 +14,6 @@ public class GuessTheMovie {
         Scanner scanner = new Scanner(System.in);
         char [] correctLetters = cryptedString.toCharArray();
         char [] movieLetters = movieName.toCharArray();
-        //while(count > 0)
         while (count > 0)
         {
             System.out.println("Guess a letter you have (" + count + ") guesses left");
